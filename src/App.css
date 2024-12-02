@@ -1,0 +1,23 @@
+.App{
+    border: 1px solid rgb(194, 114, 128);
+    padding: 30px;
+    margin: 50px 30px;
+}
+
+
+.to-do-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.to-do-container ul li {
+width: 170px;
+overflow-wrap: break-word;
+list-style-type: " 👉 ";
+cursor: pointer;
+}
+
+.done {
+
+    text-decoration: line-through;
+}
