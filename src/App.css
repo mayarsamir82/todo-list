@@ -1,13 +1,32 @@
 .App{
-    border: 1px solid rgb(194, 114, 128);
+    border: 1px solid rgb(145, 83, 93);
     padding: 30px;
     margin: 50px 30px;
+    background-color:rgb(255, 0, 128);
+}
+
+/* App.css */
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color:#db8888; /* Change this to your desired background color */
+  /* Or use a background image */
+  /* background-image: url('path/to/your/image.jpg'); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+}
+
+.App {
+  min-height: 100%;
 }
 
 
 .to-do-container {
     display: flex;
     flex-direction: column;
+   
 }
 
 .to-do-container ul li {
