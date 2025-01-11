@@ -25,7 +25,7 @@ function App() {
             return <li className = {completed? "done" : ""} onClick={() => itemDone(index)}>{text}</li>;
           })}  
         </ul>
-        <input ref={inputRef} type="text" placeholder="Add a new task..." />
+        <input className="input" ref={inputRef} type="text" placeholder="Add a new task..." />
         <button onClick={handleAdd}>add</button>
       </div>
     </div>
