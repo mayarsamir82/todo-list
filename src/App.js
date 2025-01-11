@@ -26,7 +26,7 @@ function App() {
           })}  
         </ul>
         <input className="input" ref={inputRef} type="text" placeholder="Add a new task..." />
-        <button className="زرار" onClick={handleAdd}>add</button>
+        <button className="زرار" onClick={handleAdd}>😻add</button>
       </div>
     </div>
   );
