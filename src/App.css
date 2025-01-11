@@ -48,3 +48,18 @@ cursor: pointer;
  background-color: aqua;
   color: rgb(0, 0, 0);
 }
+
+.زرار {
+  background-color: rgb(216, 129, 171);
+  color: rgb(12, 37, 119);
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: min-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+font-size: xx-large;
+font-weight: bolder;
+}
