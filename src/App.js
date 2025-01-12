@@ -2,6 +2,7 @@ import { useRef, useState } from "react"
 import './App.css';
 
 function App() {
+  // comment
   const [todos, setTodos] = useState([]);
   const inputRef = useRef()
   const handleAdd = () => {
