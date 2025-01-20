@@ -18,7 +18,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>ToDo List</h1>
+      <h1 className="todocolor">TODO LIST</h1>
+      <button type="button" class="btn btn-primary"> Add Task </button>
       <div className='to-do-container'>
         <ul>
           {todos.map(({ text , completed }, index) => {
