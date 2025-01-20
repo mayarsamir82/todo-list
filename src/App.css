@@ -44,6 +44,13 @@ cursor: pointer;
 
 
 
+.todocolor{ 
+  color: rgb(3, 3, 3);
+  text-align: center;
+font-weight: 6000;
+
+}
+
 .input {
  background-color: aqua;
   color: rgb(0, 0, 0);
