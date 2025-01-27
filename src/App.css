@@ -71,3 +71,7 @@ cursor: pointer;
 font-size: xx-large;
 font-weight: bolder;
 }
+
+.dropdown {
+  float: right;  /* تحريك الـ dropdown إلى الجهة اليمنى */
+}
