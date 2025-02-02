@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="todocolor">TODO LIST</h1>
-      <button type="button" class="btn btn-primary"> Add Task </button>
+      <button type="button" class="btn btn-primary">Add Task</button>
       <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
           All
