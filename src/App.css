@@ -47,7 +47,7 @@ cursor: pointer;
 .todocolor{ 
   color: rgb(3, 3, 3);
   text-align: center;
-font-weight: 6000;
+  font-weight: 600;
 
 }
 
@@ -70,4 +70,8 @@ font-weight: 6000;
   margin-right: auto;
 font-size: xx-large;
 font-weight: bolder;
+}
+
+.dropdown {
+  float: right;  /* تحريك الـ dropdown إلى الجهة اليمنى */
 }
