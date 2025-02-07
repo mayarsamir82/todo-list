@@ -1,8 +1,8 @@
 .App{
-    border: 1px solid rgb(145, 83, 93);
+    border: 1px solid rgb(161, 97, 108);
     padding: 30px;
-    margin: 50px 30px;
-    background-color:rgb(255, 0, 128);
+   /* margin: 50px 30px; */
+    background-color:rgba(230, 20, 238, 0.417);
     
 }
 
@@ -27,14 +27,60 @@ html {
 .to-do-container {
     display: flex;
     flex-direction: column;
+    background-color: rgb(209, 209, 209);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
     
 }
 
+
+
+
 .to-do-container ul li {
-width: 170px;
+
 overflow-wrap: break-word;
 list-style-type: " 👉 ";
 cursor: pointer;
+margin: 5px;
+}
+
+
+.ulContainer{
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 5px;
+  display: inline-flex;
+  
+  
+}
+
+
+.ulContainer p{
+  display: block;
+  font-weight: bold;
+  margin-left: 10px;
+  color:rgb(0, 0, 0);
+ 
+}
+
+ .checkBox{
+  width: 40px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #FEB0ED;
+  
+}
+
+svg{
+  background-color:rgb(209, 209, 209) ;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  float: right;
+  
 }
 
 .done {
@@ -51,10 +97,17 @@ cursor: pointer;
 
 }
 
-.input {
+.form-control{
+  border: none;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* .input {
  background-color: aqua;
   color: rgb(0, 0, 0);
-}
+  margin: 10px;
+} */
 
 .زرار {
   background-color: rgb(136, 0, 66);
@@ -75,3 +128,17 @@ font-weight: bolder;
 .dropdown {
   float: right;  /* تحريك الـ dropdown إلى الجهة اليمنى */
 }
+
+.dropdown a:hover {
+  
+background-color: brown;
+
+}
+
+.btn-secondary{
+width: 163px;
+text-align: left;
+}
+
+
+
